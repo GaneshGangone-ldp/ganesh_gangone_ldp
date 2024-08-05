@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    
+    box-sizing:border-box;
+}
+/* nav bar code starts here*/
+.hero{
+    
+    width:100%;
+    position: fixed;
+}
+nav{
+    background-color: #2b3d72;
+    font-family: 'DM sans',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px ;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0px 5px 5px #888888 ;
+    
+
+}
+.logo{
+    cursor: pointer;
+    font-size: 40px;
+    color: #fff;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+    
+}
+.logo-span{
+    color: #f76a6a;
+    cursor: pointer;
+    font-size: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    
+
+}
+nav ul li a:hover{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    color:#f76a6a;
+    transition: all 0.2s normal 0.1s ;
+    
+}
+.hero nav ul li span a{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    color:#f76a6a;
+}
+/* nav bar code ends here*/
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.main-image img{
+    margin-top: 100px;
+    width: 100%;
+    height: 80vh;
+    
+    
+}
+.main-name{
+    max-width: 600px;
+    font-family: "DM sans", serif;
+    margin: 250px 0px 0px 50px;
+    
+    
+    
+}
+.main-name h1{
+    margin-right: 50px;
+    font-size: 60px;
+    color: #2b3d72;
+}
+.main-name h3{
+    font-size: 25px;
+    margin: 10px 0 0px 60px;
+}
+span{
+    color: #f76a6a;
+}
+
+footer{
+    width: 100%;
+    background-color: #1c1c1c;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* media queies for nav bar*/
+@media only screen and (max-width:600px){
+    nav ul li{
+        margin-right: 20px;
+        
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .logo-span{
+        font-size: 30px;
+    }
+    
+}
+
+@media only screen and (max-width:476px){
+    nav ul li{
+        margin-right: 10px;
+        
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .logo-span{
+        font-size: 20px;
+    }
+    
+}
+/* navbar media query */

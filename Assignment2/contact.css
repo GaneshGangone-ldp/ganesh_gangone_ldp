@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    
+    box-sizing:border-box;
+}
+/* nav bar code starts here*/
+.hero{
+    
+    width:100%;
+    position: fixed;
+   
+}
+nav{
+    background-color: #2b3d72;
+    font-family: 'DM sans',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px ;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-shadow: 0px 5px 5px #888888 ;
+    
+
+}
+.logo{
+    cursor: pointer;
+    font-size: 40px;
+    color: #fff;
+}
+.logo-span{
+    color: #f76a6a;
+    cursor: pointer;
+    font-size: 40px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 40px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    
+
+}
+nav ul li a:hover{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    color:#f76a6a;
+    transition: all 0.2s normal 0.1s ;
+    
+}
+.hero nav ul li span a{
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fff;
+    color:#f76a6a;
+}
+footer{
+    
+    width: 100%;
+    background-color: #1c1c1c;
+    color: #fff;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* nav bar code ends here*/
+
+/* contact page css*/
+.container{
+    font-family: 'DM sans';
+    width: 100%;
+    height: 100vh;
+   
+    padding-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container .details{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #aa4465;
+    box-shadow: 0px 5px 5px #888888;
+    width: 80vh;
+    height: 80vh;
+    border-radius: 10px;
+}
+.container .details h1{
+    margin: 10px;
+    font-size: 50px;
+    font-weight: 400;
+}
+.container .details h3{
+    margin: 10px;
+    font-size: 30px;
+    font-weight: 200;
+}
+.container .details h4{
+    font-size: 15px;
+    font-weight: 100;
+}
+.social-links{
+    margin-top: 10px;
+}
+.social-links a i{
+    
+    font-size: 25px;
+    
+    margin-right: 15px;
+    color: white;
+}
+.container .query-form{
+    display: flex;
+    box-shadow: 0px 5px 5px #888888;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 80vh;
+    height: 80vh;
+    border-radius: 10px;
+    
+}
+form{
+    font-family: "DM sans";
+}
+form .fullname{
+    background-color: whitesmoke;
+    box-shadow: 0px 5px 5px #c3c2c2;
+    padding: 20px;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+form .email{
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0px 5px 5px #c3c2c2;
+    border: none;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+form .textarea{
+    padding: 20px;
+    box-shadow: 0px 5px 5px #c3c2c2;
+    background-color: whitesmoke;
+    border: none;
+    width: 300px;
+    height: 130px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+.btn{
+    border-radius: 10px;
+    color:#fff;
+    border: none;
+    margin-left: 100px;
+    background-color:#aa4465;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+    border: 1px solid black;
+    color:#aa4465;
+    background-color:#fff;
+}
+/* media queies for nav bar*/
+@media only screen and (max-width:600px){
+    nav ul li{
+        margin-right: 20px;
+        
+    }
+    .logo{
+        font-size: 30px;
+    }
+    .logo-span{
+        font-size: 30px;
+    }
+    
+}
+
+@media only screen and (max-width:476px){
+    nav ul li{
+        margin-right: 10px;
+        
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .logo-span{
+        font-size: 20px;
+    }
+    
+}
+/* navbar media query */
